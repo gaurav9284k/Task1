@@ -1,0 +1,127 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image:url('gaurav.jpg');
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+/* header{
+    background-image:url('envor.jpg');
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+} */
+.main{
+    margin:auto;
+    position: relative;
+    height: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background-color: rgba(199, 246, 248, 0.546);
+    padding: 0px 20px;
+    position: sticky;
+    top: 0;
+}
+ul{
+    List-style-type:none;
+}
+ul li{
+    display:inline-block;
+    border:1px solid transparent;
+}
+ul li a{
+    color: #ff0000;
+    text-decoration:none;
+    display: block;
+    padding:5px;
+}
+ul li a:hover{
+    background-color:white;
+    color:black;
+    transition:0.6s ease;
+}
+.active{
+    background-color: white;
+    color:black;
+
+}
+.logo img{
+    /* margin-top:25px; */
+}
+.center_text{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 240px;
+}
+h1{
+    color:white;
+}
+#bt1{
+    border:1px solid white;
+    color:white;
+    padding:5px;
+    text-decoration:none;
+}
+#bt2{
+    border:1px solid white;
+    color:white;
+    padding:5px;
+    text-decoration:none;
+}
+#bt1:hover{
+    background-color:white;
+    color:black;
+    transition:0.6s ease;
+}
+#bt2:hover{
+    background-color:white;
+    color:black;
+    transition:0.6s ease;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    background-color: rgba(199, 246, 248, 0.546);
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    padding: auto;
+}
+
+footer i{
+    background: white;
+    color:black;
+    padding:0.5rem ;
+    border-radius: 50%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+footer i:hover{
+    background:#0a3d62;
+    color:white;
+    cursor: pointer;
+
+}
